@@ -19,7 +19,8 @@ class CashRegister
   end
   
   def apply_discount
-    if 
+    if @discount
+      @total = @total * (1-)
     
   end
   
