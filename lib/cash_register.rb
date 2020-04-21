@@ -17,6 +17,7 @@ class CashRegister
   quantity.times do 
     self.items << title
     end
+    
   end
   
   def apply_discount
